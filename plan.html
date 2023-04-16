@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--Meta requerido-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--Iconos-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!--Mi hoja de estilo-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fuentes de google-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-general">
+    <!--Menu-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top sps sps--abv"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="img-fluid logotipo"
+            src="images/HORIZONTAL.png"
+            alt="Bootstrap"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-menu-app"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="somos.html">Nosotros</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li>
+              <a
+                href="https://web.facebook.com/profile.php?id=100091178467791&mibextid=LQQJ4d&_rdc=1&_rdr"
+                target="_blank"
+              >
+                <img
+                  class="iconos img-fluid"
+                  src="images/facebook-logo-button.svg"
+                  alt="Facebook"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/tumascotafeliz53/?igshid=Mzc1MmZhNjY%3D"
+                target="_blank"
+              >
+                <img
+                  class="iconos"
+                  src="images/instagram-logo.svg"
+                  alt="Instagram"
+                />
+              </a>
+              <a href="https://twitter.com/tumascotaf10801" target="_blank">
+                <img
+                  class="iconos"
+                  src="images/twitter-logo-button.svg"
+                  alt="Twiter"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Adquisicion de planes-->
+    <section class="altura">
+      <div class="container bg-white rounded shadow">
+        <form
+          class="row btn-group"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <div class="col-12 col-sm-4 text-center mt-4 mb-4 shadow">
+            <img
+              class="img-fluid w-100"
+              src="images/bronce.png"
+              alt="Banner01"
+            />
+            <div class="mt-5">
+              <h5>Plan bronce</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Caminata por senderos</li>
+              <li class="list-group-item">Chequeo veterinario</li>
+              <li class="list-group-item">Masajes para animales</li>
+            </ul>
+            <div class="col-12 col-sm-4 mt-3 mb-4 mx-auto">
+              <input
+                type="radio"
+                class="btn-check "
+                name="btnradio"
+                id="btnradio1"
+                autocomplete="off"
+                required
+              />
+              <label class="btn btn-outline-primary" for="btnradio1"
+                >Elegir</label
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 text-center mt-4 mb-4 shadow">
+            <img
+              class="img-fluid w-100"
+              src="images/plata.png"
+              alt="Banner01"
+            />
+            <div class="mt-5">
+              <h5>Plan plata</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Guardería animal</li>
+              <li class="list-group-item">Adiestramiento canino</li>
+              <li class="list-group-item">Plan alimentario a base de CBD <br> para animales </li>
+            </ul>
+            <div class="col-12 col-sm-4 mx-auto mt-3 mb-4">
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio2"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="btnradio2"
+                >Elegir</label
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 text-center mt-4 mb-4 shadow">
+            <img class="img-fluid w-100" src="images/oro.png" alt="Banner01" />
+            <div class="mt-5">
+              <h5>Plan oro</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Baño en burbujas</li>
+              <li class="list-group-item">Kit antiestrés animal</li>
+              <li class="list-group-item">Cepillado animal</li>
+            </ul>
+            <div class="col-12 col-sm-4 mx-auto mt-3 mb-4">
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="btnradio3"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="btnradio3"
+                >Elegir</label
+              >
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="col-8 col-sm-4 mx-auto btn   btn-outline-success"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!--Script necesario-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
