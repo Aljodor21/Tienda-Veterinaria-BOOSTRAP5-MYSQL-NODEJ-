@@ -119,7 +119,7 @@ footer p {
 
 /*Ventana somos*/
 .cabecera-somos{
-  padding: 150px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: url(../images/slider-interior.jpg);
   background-position: center center;
   background-size: cover ;
@@ -131,6 +131,12 @@ footer p {
   background-size: cover;
   padding: 200px 0;
   text-align: center;
+}
+
+.texto-blancoT{
+  color: white;
+  font-size: 80px;
+  text-shadow: #000;
 }
 
 .texto-blanco{
